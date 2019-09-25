@@ -33,6 +33,7 @@ private TextView btUsername;
 switch (view.getId()){
     case R.id.project:
         Intent intent = new Intent(ExamActivity.this, CouseActivity.class);
+
         startActivity(intent);
         break;
     case R.id.fix:
